@@ -1,0 +1,3759 @@
+COURSE STRUCTURE AND PROJECTS
+
+Learning JavaScript 
+-Great choice, not only because it's the most 
+popular programming language in the world,but also
+because it basically powers the entire modern web.
+
+Code Editor
+-Is the main tool for any developer
+-Used to write actual codes.
+
+VS code editor
+-Visual studio code
+-Best code editor by far
+-Most popular and widely used code editor
+-Simply, the best and easy to use and 
+completely free
+-Alternative for VS code are adam and bracket.
+
+------------------------------------------------------
+
+SECTION INTRODUCTION
+
+Basics of javascripts:
+1. Variables
+2. Data Types
+3. Operators
+4. IF-ELSE statement 
+
+-------------------------------------------------
+
+HELLO WORLD!
+
+-Use Google chrome as a browswer
+-Open chrome developer tools
+ 1. Ctrl+alt+j
+ 2. Right click and click inspect
+ 3. View tab, Developer, JavaScript Console
+
+Java script console
+-allows to write and test JavaScript Code
+-Useful in development, and fix errors
+-Good and easy way to write javascript
+
+-Alert()
+ -Javascript function
+ -write string inside the parenthesis with
+ qoutation mark.
+
+................................................
+                C    O    D    E
+Code in displaying text:
+Alert( "HELLO WORLD" )
+
+................................................
+              
+Writing a variable:
+let a='amazing'
+
+STRING > TEXT
+INTEGER > NUMBER
+
+
+................................................
+               C    O    D    E
+let a='birthday'
+If (a==='birthday') 
+alert('HAPPY BIRTHDAY NETH')
+
+................................................
+
+BRIEF INTRODUCTION TO JAVASCRIPT
+
+Javascript 
+-Is a high level, object-oriented, multi-
+paradigm programming language.
+-there are a lot of so-called abstractions
+over all these small details that we don't 
+want to worry about.
+-A lot easier to write and to learn.
+
+Programming Language 
+-Basically just a tool that allows us to write 
+code that will instruct a computer to do 
+somthing.
+-Main goal of using java script
+
+High level language
+-which means we don't have to think about a 
+lot of complex stuff such as managing
+the computer's memory while it runs or program.
+
+Object oriented
+-Means mostly based on the concept of objects 
+for storing most kinds of data.
+
+Multi-paradigm language,
+-meaning that it's so flexible and versatile, 
+that we can use all kinds of different 
+programming styles, such as imperative and 
+declarative programming.
+
+The roles of javascript in we development
+Three core technologies of web development:
+-Work together to create beautiful, 
+interactive and dynamic websites or web 
+applications.
+1. HTML
+   - Is responsible for the content of the 
+   page.
+   - Text, the images, the buttons, and all 
+   the contents that you see on the webpage
+   is always written in HTML.
+2. CSS
+   - Is responsible for the presentation of 
+   that content.
+   -Basically for styling and for laying out
+   the elements on a webpage.
+3. JavaScript
+   -Is the real programming language of the 
+   internet.
+   -It allows developers to add dynamic
+   and interactive effects to any webpage.
+   -Use it to manipulate the content or the 
+   CSS, load data from remote servers and 
+   really build entire applications in the 
+   browser, which we then call web 
+   applications.
+
+*HTML 
+-represents the noun 
+-<p></p>
+-means paragraph
+
+*CSS 
+-Is the adjective that describe the noun
+-p{color:red}
+-means the color of the text is red
+
+Java script 
+-is the verb
+-p.hide()
+-means hide the paragraph
+
+Example of javascript:
+*Twitter, when no internet loading is rotating
+once there is an internet the datas/images will
+now appear.
+*Whenever we click tweet button tweet box
+will show and then hides it when we click 
+outside.
+
+What can do with java scripts:
+1. Dynamic effects and web applications in 
+the browser.
+2. Made modern web development, and really 
+the whole modern web itself possible in the 
+first place.
+
+Modern JavaScript libraries and frameworks 
+such as React, Angular or Vue
+   -are basically tools that make writing 
+   modern, large scale web applications,
+   a lot easier and faster.
+   -100% javacript based
+
+
+3. Web applications on web browsers
+
+JavaScripts 
+-Can run outside the web browser.
+-Can run JavaScript using a very popular
+technology Node.js
+
+Node.js
+-It allows us to create so called backend 
+applications
+
+Web brower
+-On the other hand, when we use JavaScript in 
+the browser, we create so-called front end 
+applications.
+
+4. Native Mobile Applications
+-That's because of modern tools like React 
+Native, the Ionic framework and tools like 
+Electron.
+-These have completely changed the whole 
+development industry/
+
+5. Native Desktop Applications
+
+JavaScript Release:
+1. ES
+-Means ECMAScript
+-Original language
+
+2. ES6 or ES2015
+-Huge update to the language in 2015
+-Was released after ES5.
+
+There's always an update yearly
+
+-------------------------------------------------
+
+LINKING JAVASCRIPT FILE
+
+1. Open VS code
+2. Open folder
+3. Write a javascript code below the 
+</style>
+*note: ";" should put these to the end
+of every line.
+
+Console
+-Is just an environment that was built
+to execute small pieces of code and then 
+show results immediately.
+-Display what you want to diplay and the
+number of line where it is coded.
+
+console.log
+-a special function
+-to display mathematical expression.
+-to tell javascript to display result on 
+the browser console.
+-to access developer console
+-bridge between the script in a vscode
+and to develop a console on a browser
+
+Inline Script
+-Is a script that is not loaded from an 
+external file, but embedded inside HTML. 
+-Advantage dont have to load another file.
+
+Linking javascript to html:
+-should be inside the body of the html
+-inside the script
+-the command is script<src='filename'>
+
+------------------------------------------------
+
+VALUES AND VARIABLES
+
+Value 
+-Piece of data
+-Most fundamental unit of information in
+programming
+-Names, numbers, place, letters
+-Can be stored in variables
+-Smallest unit of information in javascript
+-Sample: console.log("cutie neth")
+
+Declaring a variable:
+let firstName="Jeoneth"
+
+Variable
+-Enables the values to be stored, to reuse 
+-Holds values
+
+
+................................................
+             C    O     D    E
+let firstName="NETH";
+console.log(firstName);
+
+................................................
+
+Conventions and rules for naming variables:
+1. camelCase
+   -means whenever i have multipled words
+   in a variable name, the first word 
+   word should be with a lower case and the
+   next word is in uppercase.
+   -example: firstName
+2. Words with underscore
+   -example: first_name
+3. Can't write or start with numbers
+   -example: 3years=3;
+4. Can contain numbers, dollar sign, letters
+   underscores.
+   -example: jonas_matilda ="JM";
+
+Reserved keywords:
+-name; illegal
+-function
+-new
+
+5. Should not start upper case
+   -example: Person="Jeoneth";
+6. For constant numbers like pi, it can 
+   be uppercase:
+  -example: PI=3.1415;
+
+
+................................................
+             C      O     D     E
+let country = "Philippines";
+let continent = "Asia";
+let population = 5000000;
+console.log(continent);
+console.log(country);
+console.log(population);
+
+................................................
+
+DATA TYPES
+
+Value
+   -Object
+   -Primitive
+
+Primitive data types:
+1. Number
+   -Floating point numbers
+   -Simply type number in javascript
+   -Used for decimals and integers
+   -EX: let age=23;
+2. String
+   -Sequence of characters
+   -Used for text
+   -Put double or single qoute
+   -EX: firstName='Jeoneth';
+3. Boolean
+   -Logical type that can be 
+   only be true or false
+   -Used for taking decisions
+   -Let fullAge=true;
+4. Undefined
+   -Values taken by a variable that is
+   not yet defined 
+   -Empty value
+   -let children;
+5. Null
+   -Empty value
+6. Symbol (ES2015)
+   -Value that is unique and cannot be 
+    change
+7. BigInt (ES2020)
+   -Larger integers that the number type
+   can hold
+
+Javascript
+-Dynamic typing
+
+Dynamic Typing
+-means you don't have to manually define the
+data type of the value that it contains.
+-Can assign a new value with a different
+data type to the same variable without a
+problem.
+
+................................................
+            C      O     D      E
+let person="JEONETH"
+console.log(person);
+person=true;
+console.log(person);
+................................................
+
+*value that has a type not the variable
+*variable simply stores values that has 
+ a type
+
+Use for deactivating code or commenting
+-for line ---> // 
+-for certain boundary ---> /* */
+
+................................................
+            C     O     D     E
+let javascriptIsFun=true;
+console.log(javascriptIsFun);
+................................................
+
+type off
+-plus or minus operator
+-can be used to show the type of value
+-either boolean, string, number
+
+*When console.log(typeof null);
+-it shows object
+-it just a bug
+
+-----------------------------------------------------
+
+LET, CONST, AND VAR
+
+3 Ways of declaring variables:
+1. let
+   -Use to declare varaiables that can be
+   changed later.
+   -During the execution of the program 
+   -Reassigning value to a variable
+   -Mutate the age variable
+   -EX: let age=30; age=31;
+2. const
+   -For declaring variables that are not
+   supposed to change
+   -Immutable variable
+   -Should have an initial value
+   -EX: const birthYear =1991;
+3. var
+   -should be completely avoided
+   -Can reassign value to a variable
+   -old way of defining variables
+   -prior ES6
+   -EX: var job="programer"; job=teacher;
+
+*Always declare variables
+
+----------------------------------------------
+
+BASIC OPERATORS
+Operators
+-allows us to transform values or combine
+multiple values and really do all kinds of 
+work with values
+
+Categories of Operators:
+1. Mathematical Operators 
+   -Also known as arithmetic operators
+   -Plus, Minus, Multiplications, Divisions, 
+   -All arithmetic
+   -EX: const ageJonas = 2037-1991;
+   -Plus (+),Minus (-),Times (*)
+    Power (**), Divide (/)
+2. Typeof Operator
+   -typeof
+   -Determine the cathegory of the 
+   variables
+3. Assignment Operators
+   -Just an equal sign
+   -EX: let x=10+6; result=16  
+   -EX: let x+=10; result=26
+   -x+=10; means x=x+10
+   -x*=10; means x=x*10
+   -x++; means x=x+1
+   -x--; means x=x-1
+4. Comparison Operators
+   -It is used to produce Boolean values
+   -Greater than (>), Less than (=)
+   -Greater than equal to (>=)
+   -Less than equal to (<=)
+   -Equal (=)
+3. Logical Operators
+4. Assignment Operators
+
+----------------------------------------------
+
+OPERATOR PRECEDENCE
+
+JavaScipt
+-Has a well-defined order of operation
+precedence
+-Order in which operators are executed
+
+MDN
+-Mozilla Developer network
+-developer.mozilla.org
+-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+
+................................................
+            C     O     D     E
+let x,y;
+x=y=25-10-5;// x=y=10;x=10
+console.log(x,y)// 10  10
+------------------------------------------------
+
+CODING CHALLENGE 1 -------------- DONE!
+
+-----------------------------------------------
+
+STRINGS AND TEMPLATE LITERALS
+
+Template Literals
+-use to easily build strings
+
+
+................................................
+         C     O        D      E
+const firstName="Jeoneth";
+const job="Software Engineer";
+const birthYear=1998;
+const year=2020
+
+const jonas="I'm " + firstname +", a " +
+(year-birthYear) + " years old "+job;
+console.log(jonas);
+
+Type coersion
+-Is the process of converting value from 
+one type to another (such as string to 
+number, object to boolean, and so on)
+
+Template literals
+-can write a string in a normal way and 
+can insert the variables directly into
+the string.
+-Can assemble multiple pieces into one
+final string.
+
+Backstings (``)
+New line (\n)
+
+
+................................................
+        C       O      D       E
+const jonasNew = `I'm ${firstName}, a 
+${year - birthYear} years old ${job}`;
+console.log(jonasNew);
+--------------------------------------------------
+
+TAKING DECISIONS: IF/ELSE STATEMENTS
+
+Command for if/else statements:
+if(*condition*){ 
+*Statement*  
+}
+else {
+*statement*
+}
+
+Emoji windows+.
+
+Control structure
+-if/else
+-allows us to have more control over 
+the way that our code is executed
+
+-----------------------------------------------
+
+CODING CHALLENGE 2 -------------- DONE!
+
+-----------------------------------------------
+
+TYPE COERSION AND CONVERSION
+
+TYPE COVERSION
+-use when converting from one data type to
+another
+
+In converting a string into number the 
+code is:
+Number(*string variable*)
+
+................................................
+         C      O       D       E
+const inputYear ='1991';
+console.log(Number(inputYear));
+console.log(inputYear+18);
+console.log(String(23))// 23
+
+
+................................................
+         C      O       D       E
+
+console.log(Number(jonas));// not a number
+NaN
+
+
+................................................
+
+NaN
+-Is a number but an invalid one
+
+STRING
+-the value is white
+
+Number
+-the value is violet
+
+TYPE COERSION
+-whenever an operator is dealing with two
+values with different types.
+-plus operator triggers a coersion strings
+-can introduce bugs
+
+................................................
+         C      O       D       E
+
+console.log("I am "+ 23 + " years old");// not a number
+NaN
+
+
+................................................
+
+Plus operator
+-can't convert string to numbers.
+
+------------------------------------------------
+
+TRUTHY AND FALSY VALUES
+
+Falsy values
+-Are values that are not exactly false, but
+will become false when we try to convert 
+them into a boolean
+-Initially not false but becomes false when 
+converted into boolean
+
+There is only five falsy values:
+1. zero (0)
+2. empty String ('')
+3. undefined
+4. null
+5. NaN
+
+Truthy Values
+-Values that will be converted to true.
+-Any number that is not zero or any string 
+that is not an empty string will be 
+converted to true when we attempt to 
+convert them to a boolean.
+-Any string and any numbers, and object 
+({})
+................................................
+console.log(Boolean(0)); // FALSE
+console.log(Boolean(undefined)); // FALSE
+console.log(Boolean('Jonas')); // TRUE
+console.log(Boolean({})); // TRUE
+console.log(Boolean(1)); // TRUE
+
+Conversion to boolean 
+-Is always implicit, not explicit, or in 
+other words is always typed coercion.
+
+--------------------------------------------------
+
+EQUALITY OPERATORS: == VS. ===
+
+Triple equal (===)
+-It is like a comparison operators, this
+operator will return a true or false 
+value
+-true will only be the result of this 
+operator in case that both equals are
+exactly the same.
+-Comparison Operator
+-Strict Equality Operator
+-Does not perform type coersion.
+-Only true when two values are exactly 
+the same
+
+Double equal (==)
+-loose equality operator
+-actually does type coersion
+-EX: '18'==18 // TRUE; because it does
+ type coersion the string '18' is 
+ converted into a number.
+-avoid this operator might cause a lot 
+ of bugs. 
+
+Note: when comparing values always use 
+strict equality
+
+Prompt command
+-prompt()
+-enables the user to enter values
+
+Variables can be used to store values.
+
+else if condition.
+
+Not equal equal (!==)
+-Strict version of not equal equal
+
+Not equal (!=)
+-Loose version of not equal
+
+---------------------------------------------
+
+BOOLEAN LOGIC
+
+Boolean Logic 
+-Is a branch of computer science, which 
+uses true and false values to solve complex 
+logical problems.
+-It uses logical operators to combine
+true or false values
+
+Basic Logic operators
+1. AND  
+   -Only true when both A & B & C are 
+   true, and the rest is false.
+   -Command for AND: &&
+2. OR
+   -Only true when either A & B is
+   true.
+   -Command of OR: ||
+3. NOT
+   -Inverts true/false value
+   -Command for NOT: !
+
+---------------------------------------------
+
+LOGICAL OPERATORS
+
+1. AND: &&
+2. OR: ||
+3. NOT: !
+
+----------------------------------------------
+
+CODING CHALLENGE 3 -------------- DONE!
+
+-----------------------------------------------
+
+THE SWITCH CASE
+
+Switch case
+-Alternative way in writing if/else 
+statement.
+-Use in comparing one value to multiple
+different options.
+................................................
+         C       O       D       E
+const day = prompt("What is the day today? ")
+switch (day) {
+    case 'Monday':
+        console.log(`Today is Monday!`);
+        break;
+
+    case 'Tuesday':
+        console.log("Today is Tuesday! ");
+        break;
+
+    case 'Wednesday': {
+        console.log("Today is Wednesday! ")
+        break;
+    }
+}
+..................................................
+
+Switch case command:
+switch(){
+case 1:
+break;
+case 2:
+break;
+case 3:
+break;
+default:
+}
+
+-----------------------------------------------
+
+STATEMENTS AND EXPRESSIONS
+
+Expression
+-Is a piece of codes that produces values.
+-Produce values
+-EX: 3+4, 1991, true&&false&&!false
+
+Statements
+-Program is written as a sequence of all
+action and these actions are statements
+-Full sentences that translate actions
+-if/else and case
+-EX: if(23>10){const str="23 is bigger";}
+-Does not have value.
+
+-------------------------------------------------
+
+CONDITIONAL TENARY OPERATOR
+
+Conditional Operator
+-Allows to write something similar to an
+if/else statement but all in one line
+-Ternary operator
+-Has three parts
+-Expression
+
+Conditional Operator command:
+ *condition* ? *if statements* 
+ : *else false statements*;
+
+-----------------------------------------------
+
+CODING CHALLENGE 4 -------------- DONE!
+
+---------------------------------------------
+
+JAVASCRIPT RELEASES OR VERSIONS
+
+Netscape navigator
+-a dominant browser
+
+1995
+-Brendan Eich
+-creates first version of javascript in 10
+days
+-It was called Mocha
+-Had fundamental features of moder 
+javascript
+
+1996
+-Mocha changes to livescript and then to 
+javascript
+-java script has nothing to do with java
+-Microsof launches IE, copying javascript 
+from netscape
+-It was called JScript
+
+ECMA
+-Independent standard organization
+-where javascript is submitted
+
+1997
+-ECMA script1 (ES1) was released
+-first official standaed for java script
+
+ECMASCRIPT 
+-is the standard
+
+Javascript
+-is the language in practice
+
+2009
+-ES5 (ECMAScript 5)
+-has a lot of great features
+
+2015
+-ES6 (ECMAScript 2015)
+-biggest update to the language
+-ECMAScript changes to an annual 
+release cycle
+
+2016-BEYOND
+-ES2016 / ES2017 / ES 2018 / ES 2019 /....
+
+
+Javascript
+-older version able to understand new 
+versions
+-backwards compatible
+-don't break web
+-old features never removed
+-incremental updates
+-websites keep working
+-Not backwards compatible
+
+ECMA SCRIPT COMMITTEE
+-works in updating the language.
+
+Two phases:
+1. Development phase
+   -Is simply when you're building the sit 
+   or application on your computer.
+   -Simply use latest Google Chrome
+2. Production
+   -when the web browser is finish it
+   will be deployed on the internet and
+   it's running in you user's browsers.
+   -problems appear bc it is a part can't 
+   be control. 
+   -solution is to convert these modern 
+   javascript versions back to ES5 using a 
+   process of transpiling and polyfilling
+   -Use babel to transpile and polyfil 
+   the code
+
+ES5
+-fully supported to all browser down to IE9
+from 2011
+-Ready to be used today
+
+ES6/ES2015 - ES2020
+-ES6+
+-well supported in all modern browser
+-not support in older browser
+-can use most features in production with
+transpiling and polyfiling
+
+ES2021 - so on
+-ESNext
+-future versions of the language 
+-new feature proposals reach stage 4
+-can use some features in production with
+transpiling and polyfiling
+
+--------------------------------------------------
+
+ACTIVATE STRICT MODE
+To activate stict mode the command is:
+'use strict';
+
+Strict Mode
+-can be activated only for a specific 
+function or a specific block
+-should be put at the beginning of the
+script
+-use to write more secure code
+-makes easier for the developers 
+to avoid accidental errors
+-avoids to intoduce bugs into a code
+-forbids to do certain things
+-create visible errors 
+
+-------------------------------------------------
+
+FUNCTIONS
+
+Functions 
+-Is simply a piece of code that we can 
+reuse over and over again in our code.
+-like variables that holds value but 
+it holds the whole chunks of code
+-can hold one or more complete line of code
+-EX: function *title*(){return juice;}
+-calling/running/invoking function
+-can received data and return data back
+-dry code
+
+Parameters
+-Used to create functions that accept 
+any number of arguments
+-EX: function fruitProcessor(apples, oranges)
+
+-------------------------------------------------
+
+FUNCTION DECLARATION VS. EXPRESSIONS
+
+Function Declarations
+-simply use the function keyword to declare
+a function a bit like we declare a variable
+-can be called before the declaration.
+..................................................
+          C      O      D        E
+function calcAge1(birthYear){
+return 2021-birthYear;
+}
+const age1=calcAge1(1998);
+console.log(age1);
+.................................................
+
+Function Expression
+-without name
+-The function is stored in a variable
+-anonymoust function
+-it produces value
+-more structured
+..................................................
+         C       O      D       E
+const calcAge2=function(birthYear){
+return (2021-birthYear);
+}
+const age2=calcAge2(1998);
+console.log(age2);
+...................................................
+
+ARROW FUNCTIONS
+
+Arrow function
+-special form of function expression that 
+is shorter and faster to write
+ 
+...................................................
+         C       O        D      E
+const calcAge3 =birthYear => 2037-
+birthYear;
+const age3=calcAge3(1991);
+console.log(age3);
+....................................................
+         C       O        D      E
+const ageUntilRetirement = birthYear => {
+    const age = 2020 - birthYear;
+    const retirement = 65 - age;
+    return retirement;
+}
+console.log(ageUntilRetirement(1998));
+..............................................
+
+FUNCTIONS CALLING OTHER FUNCTIONS
+................................................
+         C      O      D        E
+const fruitPieces = function (fruit) {
+    const piece = fruit * 4
+    return piece;
+}
+const fruitProcessor = function (apples, 
+oranges) {
+  const applePieces = fruitPieces(apples);
+  const orangePieces = fruitPieces(oranges);
+  const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges`;
+   return juice;
+}
+console.log(fruitProcessor(2, 2))
+console.log(fruitProcessor(10, 0))
+....................................................
+
+FUNCTIONS REVIEW:
+
+Function declaration
+-functions that can be used before it is
+declared
+-Code:
+function "function name"("parameters"){
+return;
+}
+
+Function Expression
+-function value is stored in a variable
+-Code:
+const "function name"=function("parameter"){
+return;
+}
+
+Arrow Functions
+-Great for a quick one-line functions
+-no keywords
+-no curly braces and return
+-Code:
+const "function name" = "parameter" => ;
+
+*All of them can receive an input data, 
+they tranform data and can output data
+
+Parameters
+-placeholders to receive an input values
+-like local variable
+
+Function body
+-block of code that we want to use,
+-Processes the functions input data
+
+Arguments
+-actual values of function parameters
+to input data
+
+Return
+-exit
+-return the function
+-return statement to output the value from
+the function and terminate the execution.
+
+
+------------------------------------------------
+
+CODING CHALLENGE 1 -------------- DONE!
+
+------------------------------------------------
+
+INTRODUCTION TO ARRAYS
+
+Arrays 
+-Is a data structure
+-Is a big container into which can throw
+variables and reference them
+-Use to store data
+-Code:
+const "variable name"=[data1, data2, data3];
+
+const "variable name"=new Array(d1,d2,d3);
+
+Data
+-in programming is get, stored, processd and 
+give back
+
+Literal Syntax
+-array using a brackets
+-it is ussual
+
+*Arrays are zero elements first element is zero
+
+Dot length
+-Is a property 
+-which is used to determine the exact amounts of
+elements
+-Number of elements in the array
+-Code:
+console.log(friends.length);
+
+Command in changing array
+friends[2]="Jay"
+
+Note: Only primitive values are immutable
+and array is not a primitive value
+
+Arrays can be mutated even though it is declared 
+with const
+
+---------------------------------------------------------
+
+BASIC ARRAY OPERATIONS
+
+Methods
+-JavaScript has some built in functions that we 
+can basically apply directly on arrays.
+-methods as array operations basically.
+
+Array Methods:
+1. Push elements
+-adds elements to the end of the array
+-it is a function
+-returns
+-Code:
+"array name".push("elements want to add");
+
+2. Unshift elements
+-adds elements at the beginning of the array
+-it is a function
+-returns
+-code:
+"arrayname".unshift("elements want to add");
+
+3. Remove elements at the end
+-removes the last elements of the array
+-it is a function
+-code:
+"array name".pop();
+
+4. Removes elements at the beginning
+-removes the first elements of the array
+-it is a function
+-code:
+"array name".shift();
+
+5. Determine the position of the elements in the 
+array
+-it determines the position of the elements in the
+array
+-it is a function
+-"arrayname".indexOf("elements want to determine
+the position");
+
+6. Includes
+-instead of returning the index of  the elements 
+will simply return true if the element is in the
+array and false if it's not
+-can be used to write conditionals
+-it is a function
+-strict
+-Code:
+"Array name".includes("Name of the element");
+
+-----------------------------------------------------------
+
+INTRODUCTION TO OBJECTS
+
+Objects
+-Another data structure in javascript
+-Define key value pairs and so then we can give 
+each of these values here a name
+-It uses curly braces or curly brackets to define 
+a new object 
+-Enables to assign a name to each of these values
+-Most fundamental concept in the whole of javaScript 
+language
+-Use it to group different  variables that are 
+related to one another
+-Order does not matter
+-Arranges alphabetically
+
+Object Literal Syntax
+-Creating objects using a curly braces
+-Easiest 
+
+
+........................................................................
+            C       O       D        E
+const jeoneth = {
+    firstName: "Jeoneth",
+    lastName: "Laylay",
+    age: 23,
+    job: "Software Engineer",
+    friends: ["jereme", "ella", "megs", "hazel"]
+
+};
+console.log(jeoneth);
+...........................................................
+
+Keys 
+-are also called a property
+
+The big difference between objects and arrays,
+is that in objects, the order of these values
+does not matter at all when we want to retrieve 
+them.
+
+*use arrays for more order data,
+and objects for more unstructured data.
+
+*arrays elements can be only accessed using 
+its order
+
+----------------------------------------------------------
+
+DOT VS BRACKET NOTATIONS
+
+Methods in getting Objects property:
+1. Dot Notation
+-can't be computed property name
+-use when you want a cleaner program
+Code to get the property in a object:
+"Objectname"."propertyname"
+
+2. Brackets Notation
+-can be computed property name
+-use when need to compute first the property name
+Code to get the property in a object:
+"Objectname"[""propertyname""]
+
+Adding new property:
+1. Dot Notation:
+"objectName"."newpropertyName"="propertyValue";
+
+2. Bracket Notation:
+"objectName"["propertyName"]="propertyValue";
+
+-------------------------------------------------------
+
+OBJECTS METHOD
+
+Objects 
+-Can hold different types of data
+-Can hold objects inside an objects
+-Can add functions
+
+Functions 
+-another type of value
+-Can be added to objects
+
+Method
+-Any function that is attached to the object
+-Can be a property that holds a function value
+
+This
+-enables to read the other property inside the 
+object directly
+-basically equal to the object on which the method
+is called
+-object calling the method
+-Code:
+this."propertyName"
+
+getSummary
+-this method should return a string which should
+summarize the data about jonas, or any other person
+data
+
+------------------------------------------------------------
+
+ITERATION: THE FOR LOOP
+
+Loops
+-are a fundamental aspect of every programming
+language 
+-it allows to automate repetitive tasks
+
+For Loop
+-keeps running while condition is true
+-has three parts
+-Initial value, logical condition, counter
+-Code:
+for(initial value; logical condition;counter)
+
+---------------------------------------------------------
+
+LOOPING ARRAYS, BREAKING AND CONTINUING
+
+Important statements of for loop
+1. Break
+-Completely terminate the whole loop
+-Break;
+2. Continuing
+-Is to exit the current iteration of the loop and
+continue to the next one
+-code:
+Continue;
+
+-------------------------------------------------------
+
+LOOPING BACKWARDS AND LOOPS IN LOOPS
+
+Increment:
+i++
+
+Decrement:
+i--
+
+Loop inside the loop
+
+Backward loops
+----------------------------------------------------------
+
+WHILE LOOP
+
+While Loop
+-keeps running while condition is true
+-can only specify a condition
+-Initial value, logical condition, counter
+-more versatile
+-can be used in larger variety of situation
+-no counter needed
+-does not depend on any counter variable.
+-Code
+initial value
+
+
+Math.random
+-create a number between zero and one
+
+Math.trunc()
+-remove decimal number
+
+
+arr
+-takes an array
+
+---------------------------------------------------------
+
+Setting up Prettier and VS Code
+
+1. Install Prettier
+2. Enable Prettier
+3. Reload the browser
+4. Define prettier on the code
+5. File>Preferences>Settings
+6. Search default formatter
+7. Select prettier
+
+Prettier
+-code formatter
+-it fixes format of the code
+-it removed all these blank lines that we had here
+and it also transformed these single quotes
+into double quotes.
+-Is an opinionated code formatter.
+
+Configuring prettier
+.prettierrc
+
+"singleQuote": false
+"arrowParens": "avoid"
+
+Snippets allows u to customize a shortcut name
+for a command
+
+---------------------------------------------------------
+
+INSTALLING NODE.JS AND SETTING UP A DEV ENVIRONMENT
+
+Life server
+-tools to automatically reloads browsers
+
+Different ways to use Life server:
+1. VS code extension on the browser
+2. Using Node.js 
+3. NPM package
+
+
+---------------------------------------------------------------
+
+LEARNING HOW TO CODE
+
+Common Mistakes:
+1. No goals
+2. Just copying codes
+3. Didn't reinforce whta he was learning / no notes
+4. Didn't practice
+5. Frustrated Quickly
+6. Lost Motivation
+7. Expecting too much
+
+How to succeed in coding:
+1. Set goals 
+   -specific, measurable, time based and realistic
+   -know why you're doing code
+   -imagine a big project
+   -reseach technologies
+2. Dont copy code
+   -understand the code
+   -always type the code
+3. Reinforcing
+   -Take notes
+   -Do some coding exercises
+   -Use the concepts
+   -codewars.com
+4. Practice
+5. Don't be frustrated
+   -don't get stuck
+6. Always accept failure because failure can be 
+   a lesson. Don't give up! Be open for 
+   improvements
+7. Learn with other people
+
+Learning coding stages:
+1. Everything is awesome
+Study courses: understand code, take challenges and
+notes
+2. Cliff of confusion
+-Stay Motivated! Keep writing lots of code on your 
+own
+3. Pit of despair
+-Learn with other people
+-Keep challenging yourself
+4. Back to awesome
+-Round up your skillset with best practices
+5. Job Readt
+-Learning never stops!
+
+-----------------------------------------------------------
+
+LEARN TO THINK LIKE A DEVELOPER:
+BECOME A PROBLEM SOLVER!
+
+Solving problem
+-Is one of the important things in solving a 
+problem
+
+To be a great programming you need to learn to deal
+with problems effectively.
+
+Failure at solving problems:
+1. Jumps at a problem without thinking
+2. Implements solutions in unstructured way
+3. Gets stressed out
+4. Research others solution 
+ 
+Fix:
+1. Stay calm and slow down
+2. Take very logical and rational approach
+3. Use the four step framework
+
+Four step Framework:
+1. Make sure to understand the problem. Ask the
+right queations to get a clear picture of the 
+problem
+2. Divide and conquer: Break a big problem into
+smaller sub-problems
+3. Don't afraid to do some research
+4. For a bigger problems, write a pseudo-code
+code understandable by humans
+
+--------------------------------------------------------
+
+USING GOOGLE, STOCKFLOW AND MDN
+
+Merging two array 
+concat()
+
+You can search commands on:
+1. Google
+2. Stockflow
+3. MDN
+
+----------------------------------------------------------
+
+DEBUGGING (FIXING ERRORS)
+
+Debugging 
+-means to find or fix an error.
+
+Software bug
+-defect or problem in a computer program
+-unexpected or unintended behavior of a computer 
+program
+-Normal part of computer software development
+
+Real bugs
+-was causing error in Harvards computer
+
+Debugging
+-process of finding, fixing and preventing bugs
+
+Debugging process:
+1. Identify
+   -Becoming aware that there is a bug
+   -during development, testing software, user 
+   reports during production, context: browsers, 
+   users
+
+2. Find 
+   -Developer console
+   -Debugger software
+
+3. Fix
+   -replace the wrong solution to correct solution
+
+4. Prevent
+   -searching for the same bug with similar code
+   -writing test using testing software
+
+-----------------------------------------------------------
+
+DEBUGGING WITH THE CONSOLE AND BREAKPOINTS
+
+console.warn:
+warning
+
+console.error:
+error
+
+promp window is always a string
+
+always convert the number from string into a number
+before doing some operations.
+
+1. Identify
+-the bug is the output is not correct
+2. Find
+-the bug is that the string is not converted to
+a number before the operation executed
+3. Fix
+-convert the string into a number
+
+Converting number to string:
+str=''
+str+=""
+
+------------------------------------------------------
+
+AN HIGH-LEVEL OVERVIEW OF JAVASCRIPT
+
+Javascript 
+-Is a high-level object oriented, multi-paradigm 
+programming language
+-is a high-level, prototype-based, object-oriented, 
+multi-paradigm, interpreted or just-in-time 
+compiled, dynamic, single-threaded, garbage-
+collected programming language with first-class 
+functions and a non-blocking event loop 
+concurrency model.
+
+Javascript:
+1. High-Level
+-every program that runs on your computer
+needs some hardware resources, such as memory and 
+the CPU to do its work.
+
+Low level languages
+-developers has to manage resources manually
+-C
+
+High level languages
+-Developers does not have to worry everything 
+happens automatically
+-manage resources automatically
+-have so-called abstractions that take all of that 
+work away from us.
+-This makes the language easier to learn and to use,
+but the downside is that programs will never be as 
+fast or as optimized as for example, C programs.
+-Python, Javascript
+
+2. Garbage-Collection
+-one of the powerful tools that takes memory 
+management away from us developers
+-which is basically an algorithm inside the 
+JavaScript engine, which automatically removes 
+old, unused objects from the computer memory
+in order not to clog it up with unnecessary stuff.
+-cleaning memory we dont have to
+
+3. Interpreted or Just in-time compiled
+-is that the computer's processor
+only understands zeros and ones, that's right.
+- every single program needs to be written
+in zeros and ones, which is also called machine 
+code.
+-We simply write human-readable JavaScript code,
+which is an abstraction over machine code,
+but this code eventually needs to be translated
+to machine code.
+
+4. Multi-paradigm
+-one of the things that makes JavaScript so 
+popular
+-is an approach and an overall mindset of 
+structuring our code, which will ultimately direct 
+the coding style and technique in a project that 
+uses a certain paradigm.
+
+Three popular paradigm are:
+1. Procedural programming
+-is what we've been doing so far, which is 
+basically just organizing the code in a very linear
+way, and then with some functions in between.
+2. Object-oriented programming (OOP)
+3. Functional Programming (FP)
+
+Classifical of paradigm: 
+(1) Imperative
+(2) Declarative
+
+6. Prototype-based object-oriented approach
+-All are object except primitive values
+-we create arrays from an array blueprint,
+which is like a template and this is called the 
+prototype.
+
+7. First-class function
+-which simply means that functions
+are treated just as regular variables.
+-we can pass functions into other functions
+and we can even return functions from functions.
+-this is extremely powerful because it allows us 
+to use a lot of powerful techniques
+-also allows for functional-programming,
+which is one of the paradigms
+that we just talked about before.
+-passing a function into another function as 
+a function argument
+
+8. Dynamic Language
+-Dynamially typed
+-No data type definitions
+-types becomes known at runtime
+-Data type of variable is automatically changed
+-the type of variables can easily be changed
+as we reassign variables.
+-prevents bugs
+
+9. Singe-threaded
+10. Non-blocking event loop
+-is a really complex topic
+-Most complex one
+
+Concurrency
+-means how the JavaScript engine handles multiple 
+tasks happening at the same time.
+-because JavaScript itself runs in one single-thread,
+which means that it can only do one thing at a time
+and therefore we need a way of handling
+multiple things happening at the same time.
+
+Thread 
+-is like a set of instructions that is executed in 
+the computer's CPU.
+- is where our code is actually executed in a 
+machine's processor.
+
+Event Loop
+-takes long-running tasks, executes them in the 
+background and then puts them back in the main 
+thread once they are finished.
+
+------------------------------------------------------------
+
+JAVASCRIPT ENGINE AND RUN TIME
+
+JavaScript engine 
+-is simply a computer program that executes 
+JavaScript code.
+-there are a lot of steps involved in doing that,
+but essentially executing JavaScript code is what 
+an engine does.
+-evry browser has this
+
+Google's V-Eight
+-The most well known engine
+-powers google chrome
+
+Node.js
+-is that JavaScript runtime that we talked about in 
+the beginning of the course,
+-can use to build server side applications
+with JavaScript, so outside of any browser.
+
+Javascript engines consists of:
+(1) Call stack
+-is where our code is actually executed
+using something called execution contexts.
+-execution content
+-where our code executed
+
+(2) Heap
+- is an unstructured memory pool which stores all 
+the objects that our application needs.
+-object in memory
+-where objects are stored
+
+Computer's Processors 
+-only understands 0's and 1's
+-binary codes
+-therefore every single computer program ultimately 
+needs to be converted into this machine code and 
+this can happen using compilation or interpretation.
+
+Compilation
+-the entire source code is converted into machine 
+code at once.
+-this machine code is then written into a portable 
+file that can be executed on any computer.
+
+In compilation:
+(1) Source code is created
+(2) Source code will be compiled
+(3) Source code will be converted into a portable
+    file or machine code
+(4) Machine code will be executed
+(5) The program will run
+
+
+Interpretation
+-runs through the source code and executes it line 
+by line
+
+In interpretation:
+(1) Source code is created
+(2) Executed line by line: where conversion to 
+    machine codes happens
+(3) The program will run
+
+Javascript
+-is an interpreted language and its problem is
+ slower than other language
+
+Javascript engine (Now)
+-combination of compilation and interpretation
+-also called as just-in-time compilation
+-This approach basically compiles the entire code
+into machine code at once and then executes it 
+right away.
+
+Just-in-time compilation
+-Entire code is converted into a machine code all at 
+once and executed immediately
+-much faster now
+
+In Just-in-time compilation:
+(1) Source code is created
+(2) Converts source code to machine code
+(3) Executes immediately
+(4) The program will run
+
+Modern just-in-time compilation of javascript:
+(1) Javascript code is entered
+(2) Parsing : read the code and parsed code into a data
+              called the abstract syntax tree or AST
+    Abstract Syntax Tree (AST): This works by first 
+    splitting up each line of code into pieces that are 
+    meaningful to the language like the const or function 
+    keywords, and then saving all these pieces into the 
+    tree in a structured way.
+    -Also checks if there are syntax error and the 
+    resulting tree will later be used to generate the 
+    machine code.
+(3) Compilation : Which takes the generated AST and 
+                  compiles it into machine code.
+(4) Excution : happen right away
+             : happens in callstack
+             : during execution optimization happens 
+               and will recompile and excute and so on.
+
+The parsing, compiling and optimization happens in special
+threads.
+
+Javascript run time in the browser
+-container includes all the things needed to use the 
+javascript (in this case in the browser)
+
+Runtime
+-Is the javascript engine in the browser
+-In order to work properly it is important to have 
+access to the web APIs
+-contains all the javascript related stuffs
+-It also includes call back queue
+
+Web APIs:
+-is a functionalities provided by the engines but 
+which are  actually not part of the javascript 
+language itselfs
+-javascript simply gets access to these APIs through 
+the global window objects
+-part of the runtime
+
+(1) DOM
+(2) Timers
+(3) Fetch API
+
+Callback queue:
+-This is a data structure that contains all the callback 
+functions that are ready to be executed.
+
+(1) click
+(2) timer
+(3) data
+
+Callback functions 
+-events handler functions
+-So as the event happens, for example a click, the 
+callback function will be called.
+
+So as the event happens, for example a click, the 
+callback function will be called. And here is how 
+that actually works behind the scenes. So the first 
+thing that actually happens after the event is that 
+the callback function is put into the callback queue.
+Then when the stack is empty the callback function 
+is passed to the stack so that it can be executed.
+And this happens by something called the event loop.
+
+Event Loop
+-takes callback functions from the callback queue
+and puts them in the call stack so that they can 
+be executed.
+
+Thread pool
+-multiple C++ bindings
+
+-------------------------------------------------------------------
+
+EXECUTION CONTEXT AND THE CALL STACK
+
+Execution:
+(1) Global execution context : created for the top
+level code
+
+Top-level code 
+-is basically code that is not inside any function
+
+Note: Only the code that is outside of functions will 
+be executed. Functions should only be executed when 
+they are called.
+
+-variables, functions will be executed when called.
+
+Execution Context
+-basically as an environment in which a piece of 
+JavaScript is executed.
+-It's like a box that stores all the necessary 
+information for some code to be executed.
+
+Exactly one global execution context
+-default context
+-created for code that is not inside any function
+(top-level)
+
+(2) Execution of the top-level code 
+(inside global EC)
+-It's just the computer CPU processing the machine 
+code that it received.
+
+
+
+(3) Execution functions and waiting for callbacks
+
+One execution context per function
+-for each and every function call, and you 
+execution context will be created containing 
+all the information that is necessary to run 
+exactly that function.
+
+What's inside the excution context:
+(1) Variable environment
+    -let, const, and var declarations
+    -Functions
+    -Arguments Objects
+
+(2) Scope chain
+    -is that the scope chain basically consists of references
+    to variables that are located outside of the current 
+    function
+
+(3) This keyword
+    -context special variable
+
+The variable environment, scope chain and this keyword
+-generated during the creation phase right before
+ execution
+
+Important detail that we need to keep in mind, is that 
+execution contexts belonging to arrow functions, do not 
+get their own arguments keyword, nor do they get the 
+this keyword.
+
+Arrow functions
+-don't have the arguments object and the this keyword.
+-they can use the arguments object, and the this 
+keyword from their closest regular function parent.
+
+Call stack
+-place where execution context get stacked on the top
+of each other to keeo track where the execution
+-map of javascript
+
+----------------------------------------------------------------------
+
+SCOPE AND THE SCOPE CHAIN
+
+Scoping
+-controls how our program's variables are organized and 
+accessed by the JavaScript engine.
+-where do variables live? Or where can we access a 
+certain variable and where not?
+
+Lexical scoping 
+-means that the way variables are organized and accessed
+is entirely controlled by the placement of functions
+and of blocks in the programs code.
+-a function that is written inside another function 
+has access to the variables of the parent function
+
+Variable scoping 
+-is influenced by where exactly we write our functions 
+and code blocks.
+
+Scope
+-Is a space or environment in which certain variable is
+declared (variable environment in case of functions)
+-There is a global scope, function scope and block scope
+
+Scope of a variable
+-basically the entire region of our code, where a 
+certain variable can be accessed.
+
+Three different types of scope in javascript:
+(1) Global Scope
+    -Top level code
+    -variables that are declared outside of any function 
+     or block.
+    -accessible everywhere
+    -Ex: const me = "Jonas";
+         const job = "Teacher";
+
+(2) Function Scope
+    -variables that are accessible only inside the function
+    not outside
+    -Also called the local scope
+    -Ex: function calcAge(birthYear){
+             const now = 2037;
+             const age = now-birthYear;
+             return age;
+             }
+         console.log(now); // ERROR
+
+(3) Block Scope
+    -variables that are accessible only inside the block
+    -Only applies to let and const variables
+    -Functions are also block scoped
+    -mean everything that is between curly braces,
+     such as the block of an if statement or a for loop.
+    -var still available outside the block
+    -if statements
+    - if(i<3){
+          const x=2;
+           }
+      console.log(x); // ERROR
+
+Scope chain
+-means every scope always has an access to all the variables
+from all its outer scopes.
+-from all it's parents scopes
+
+Variable look up
+-a process of when if one scope needs to use a certain 
+variable, but cannot find it in the current scope,
+it will look up in the scope chain and see if it can 
+find a variable in one of the parent scopes.
+If it can, it will then use that variable.
+And if it can't, then there will be an error.
+-can't look down
+
+Callstack
+-order in which function is called
+-creating one execution context for each function call and 
+filling it with the variables of that function.
+
+Scope chain
+-Order in which functions are written in the code
+-Nothing to do with the order in which function is called
+-one way street
+-a scope will never ever have access to the variables of the inner scopes.
+
+-----------------------------------------------------------------
+
+SCOPING IN PRACTICE
+
+var
+-function scoped
+-ignore blocks
+
+strict mode
+-to see errors
+
+
+Its okay to have same variable names with different values
+as long as they are on different scope.
+
+-----------------------------------------------------------------------
+
+VARIABLE ENVIRONMENT: HOISTING AND AND THE TDZ
+
+The execution context always contains three parts:
+(1) The variable environment
+(2) Scope chain
+(3) this keyword
+
+Hoisting
+-basically makes some types of variables accessible or
+usable in the code before they are actually declared
+-variables lifted to the top of their scope
+
+Before execution
+-code is scanned for variable declarations, and for each 
+variable, a new property is created in the variable
+environment object.
+
+Function declarations
+-Hoisted ? Yes
+-Initial Value : Actual Value
+-Scope : Block
+-can use before they are actually declared in a code,
+because they are stored in the variable environment object
+even before the code starts executing.
+
+var Variables
+-Hoisted ? Yes
+-Initial value : Undefined
+-Scope : Function
+-almost never use because it can cause bugs
+
+let and const variables
+-Hoisted : No
+-Initial value : Temporal Dead Zone or TDZ (uninitialized)
+-Scope : Block
+-Which make it so that we can't access the variables 
+between the beginning of the scope and the place where 
+the variables are declared
+-if let and const variable is used before its declared, we 
+get an error
+
+Function expressions and arrows
+-depends if using var or let/const 
+
+TDZ
+-Make it easier to avoid and catch errors
+-accessing variables before declarations is bad practice
+and should be avoided
+
+Hoisting
+-is implementated to use function before the actual 
+declaration
+
+------------------------------------------------------------------------
+
+HOISTING AND TDZ IN PRACTICE
+
+Dont use var 
+
+Declare the variables at the top of the scope
+
+If let and const are used it cant create properties on the
+windows object. Only var can be created
+
+-----------------------------------------------------------------------
+
+THE THIS KEYWORD
+
+this keyword/variable
+-Is a special variable that is created for evry execution 
+context (every function).
+-takes the value of (points to) the owner of the function 
+in which thia keyword is used
+-this is not  static
+-It depends on how the function is called, and its value 
+assigned when function is actually called
+-is a reference variable that refers to the current object.
+
+Different ways in which functions are called:
+(1) Method
+-the this keyword inside that method will simply point 
+to the object on which the method is called
+-it points to the object that is calling the method.
+-this=<Object that is calling the method>
+
+(2) Simple function call
+-also known as normal function call
+-this keyword, will simply be undefined.
+-it is only valid for strict mode. So if you're not in 
+strict mode, this will actually point to the global object,
+which in case of the browser is the window object.
+-this = undefined
+
+(3) Arrow functions
+-It's an important kind of function that we need to consider,
+because, remember, arrow functions do not get their own
+'this keyword'.
+-Instead, if you use 'the this variable' in an arrow function,
+it will simply be the this keyword of the surrounding 
+function.
+-uses this keyword from its parent scope.
+-this=<this sorounding function (lexical this)>
+-not exactly the way of calling function
+
+(4) Event listener
+-this keyword will always point to the DOM element
+that the handler function is attached to.
+-is usually a big sourceof confusion for beginners.
+-But if you know these rules, then it shall become a lot 
+simpler and to make it even simpler.
+-this=<DOM element that the handler is attached to>
+
+donts:
+1. this will never point to the function in which we are 
+using it.
+
+2. Also, the this keyword will never point to the variable 
+environment of the function.
+
+(4) new, call, apply, bind
+
+------------------------------------------------------------------
+
+THE THIS KEYWORD PRACTICE
+
+Function expression
+-this keyword is undefined
+
+Arrow 
+-this keyword is windows properties
+-it uses lexical this keyword
+
+Method borrowing
+-we basically borrowed here the method from one object to 
+the other.
+
+-------------------------------------------------------------------------------
+
+REGULAR FUNCTIONS VS ARROW FUNCTIONS
+
+regular function
+-must be used when using this keyword
+-avoid arrow function
+
+var
+-should be avoided
+ 
+self=this
+-solution to use arrow method
+
+
+--------------------------------------------------------------------
+
+PRIMITIVES VS OBJECTS
+
+Primitives data type:
+(1) Number
+(2) String
+(3) Boolean
+(4) Undefined
+(5) Null
+(6) Symbol
+(6) BigInt
+
+Objects / Reference type:
+(1) Object Literals
+(2) Arrays
+(3) Functions
+
+Two components of engine:
+(1) Call stack
+    -where function is executed
+(2) Heap
+    -where function is stored in memory
+
+Objects 
+-are stored in the memory heap
+-when a function is stored, the identifier will be stored
+in the callstack and pointed to the address that holds its
+value which is the heap address whose value is pointed 
+on the heap address where its real value is holded
+
+Primitives
+-are stored in the callstack
+-The value will be specified at memory address
+-identifier will points on the memory address that
+holds the value
+
+---------------------------------------------------------------------
+
+PRIMITIVES VS OBJECTS IN PRACTICE
+
+Problem: when you copy an object and you change one value 
+inside the object the changes will reflect on both
+variables
+
+Soution: Use Object.assign 
+
+object.assign
+-can use this function to merge two objects.
+-is to simply merge an empty new object with Jessica2.
+And this will then create a completely new object
+where all the properties are really copied.
+-Code:
+const "variable name" = Object.assign({},"variable name wants
+                                                   to copy")
+-it only copy a shallow copy not a clone
+-still a problem
+-can't change array properties
+-works only on first level
+
+----------------------------------------------------------------------
+
+DESTRUCTING ARRAYS
+
+Destructuring
+-ESX feature
+-basically a way of unpacking values from an array or an 
+object into separate variables.
+-is to break a complex data structure down into a smaller 
+data structure like a variable.
+-Brackets is used
+-it is used to assign a variables for every elements of
+an array
+
+-Code:
+const arr=[2,4,5];
+const [x,y,z]=arr; // x=2, y=4, z=5
+const [, y,z]; // y=4,z=5
+
+Nested array
+-Means one array inside the array
+-it is used to assign a variables for every elements 
+which includes an array inside an array
+
+-Code:
+const arr=[2,4,[5,6]];
+const [x,y,z]=arr; // x=2, y=4, z=[5,6]
+const [, y,[a,b]]; // y=4, a=5, b=6
+
+Default values
+-can be set when extracting values
+-set values
+-Code:
+const [p,q,r]=[9,8] // p=9, q=8, r=undefined
+const [p=1, q=1, r=1]=[9,8] // p=9, q=8, r=1
+
+--------------------------------------------------------------------
+
+DESTRUCTURING OBJECTS
+
+Destructuring Objects
+-curly braces are used
+-start with const to define the variable name
+-provide a variable names that is exactly match the properties
+want to retrieve from the project
+-Life saver
+-allows to write a lot less code
+-helpful in dealing third-party data
+-Can set defualt value
+
+-Code:
+const(property1, property2,...)= object name;
+
+API call
+-which basically means to get data from another web application,
+like weather data or data about movies or something like that
+-this data usually comes in the form of objects basically.
+
+Changing property names code:
+const {prop1 : new name, prop2 : new name,}= object name;
+
+Changing property names code with default value:
+const {prop1 : new name=[], prop2 : new name,=[]}= object name;
+
+Mutating
+-change
+
+Mutating variables for object:
+let a=111;
+let b=999;
+const obj={a:23, b:7, c:14};
+({a,b})=obj;
+console.log(a,b); a=23, b=7
+
+Assigning variables for Nested Objects code:
+const {fri: {open: o, close: c}}=openingHours;
+console.log(o, c); 23, 7
+
+------------------------------------------------------------------
+
+THE SPREAD OPERATOR (...)
+
+Spread operator
+-can be used to basically expand an array into its elements
+at one
+-taking out the elements of the array and writing it 
+manually to another array
+-can be use if needs the values of the array individually 
+
+Extending the array code:
+const arr = [4,5,6];
+const newArr =[1,2,3,...arr];
+console.log(newArr); // [1,2,3,4,5,6];
+
+Spread operator vs destructing:
+1. The big difference is that the spread operator takes all the 
+elements from the array and it also doesn't create new 
+variables.
+2. It can only use it in places where we would otherwise
+write values separated by commas.
+
+Iterables
+-are things like all arrays, strings, maps, or sets,
+but not objects.
+
+Iterables making string into arrays:
+const str = [];
+const letters = [...str];
+console.log(letters); // [J, E, O, N, E, T, H]
+
+Iterables in objects
+
+Adding multiple properties:
+const newResto={foundedIn: 1998, ...restaurant, founder: "J"};
+
+--------------------------------------------------------------------
+
+REST PATTERNS AND REST PARAMETERS
+
+Spread operator 
+-use to build new arrays or to pass multiple values into a 
+function.
+-to expand an array into individual elements.
+-on the right side of the = aign
+
+Rest parameters and the rest pattern 
+-looks exactly like the spread operator
+-it has the same syntax with the three dots
+-it actually does the opposite of the spread operator.
+-uses the exact same syntax however, to collect multiple 
+elements and condense them into an array.
+-uses on the left side
+
+Rest Pattern
+-basically collects the elements that are unused
+in the destructuring assignment.
+-Code:
+const [a, b, ...others]=[1,2,3,4,5]; 
+console.log(a,b,others); // 1 2 > [3,4,5]
+
+resting the others
+const x =[1,2,3,4,5];
+console.log(a,...b)=x // 1 > [2,3,4,5]
+
+adding two array into one array
+const variable = [...arr1, ...arr2];
+------------------------------------------------------------------
+
+SHORT CRICUITING (&& AND ||)
+
+Three properties about logical operators:
+(1) Use any data type
+(2) Return any data type
+(3) Short circuiting
+
+In case of OR operator:
+Short circuiting means
+-short circuiting means that if the first value
+is a truthy value, it will immediately return that 
+truthy value.
+-return the last value when all of them are falsy
+-to set a default value in case that the first value 
+was a falsy value.
+
+
+In case of AND operator:
+-works in the exact opposite way
+-short circuiting means that if the first value
+is a falsy value, it will immediately return that 
+first value.
+-return the last value when all of them are truthy
+-to set a default value in case that the first value 
+was a truety value.
+
+----------------------------------------------------------------------
+
+THE NULLISH COALESCING OPERATOR (??)
+
+Nullish coalescing operator
+-It's an operator that was introduced in ES2020
+-works with the idea or with the concept of nullish values 
+instead of falsy values.
+-Solution for the OR
+-Null or undefined
+-does not include 0 and ' '
+
+------------------------------------------------------------------
+
+LOOPING ARRAYS: THE FOR-OF LOOP
+
+For-of Loop
+-will automatically loop over the entire array without timer
+-it will give us access to the current array element,
+which we can specify here.
+-still can use use continue and break
+
+For-of loop code:
+for (const "variable" of "arrayname") console.log("variable")
+
+For-of loop code which checks the index:
+for (const "variable" of "arrayname".entries) 
+console.log("variable")
+
+
+For-of loop code which includes the index:
+for (const [i,"variable"] of "arrayname".entries) 
+console.log(`${i+1}:${"variable"}`);
+
+----------------------------------------------------------------
+
+ENHANCED OBJECT LITERALS
+
+ES6 enhance object literals
+(1) For the new property added from the outside:
+"functionName",
+
+(2) For the function property inside can be also written as:
+"functionName : function () {}"
+"functionName"() {  }
+
+(3) Can now actually compute property names instead
+of having to write them out manually and literally.
+
+----------------------------------------------------------------
+
+OPTIONAL CHAINING (?.)
+
+Optional chaining
+-operator provides a way to simplify accessing values 
+through connected objects when it's possible that a 
+reference or function may be undefined or null.
+-Syntax : ?.()
+ 
+Methods
+console.log(restaurant.order?.(3, 2) ?? 'does not exist');
+
+----------------------------------------------------------------
+
+LOOPING OBJECT KEYS, VALUES AND ENTRIES
+
+1. Object.keys
+-used for returning enumerable properties of a simple array.
+
+Determine the property names:
+Object.keys("Object property name");
+
+2. Object.values
+-method in JavaScript returns an array consisting of 
+enumerable property [key, value] pairs of the object 
+which are passed as the parameter
+-is used for listing all the [key,value] pairs of an object.
+
+Determine the property values:
+Object.values("Object property name");
+
+3. Object.entries
+-method in JavaScript returns an array whose elements 
+are the enumerable property values found on the object.
+-is used for listing properties related to an object.
+
+Determine the entire object
+Object.entries("Object property name");
+
+Adding properties to the object
+let variable1 = {};
+for (const players of game.scored) {
+  scorers[players] ? scorers[players]++ : 
+(scorers[players] = 1);
+}
+------------------------------------------------------------------
+
+SETS
+
+Set
+-collection of unique values
+-can be new duplicate
+-can hold mixed data types
+-bunch of values grouped
+-no key value pairs
+-braces
+-iterable
+-order is illerevant
+-not repeating
+
+In creating a set:
+const "setname"=new Set([
+elem1, 
+elem2,
+elem3,
+]);
+
+In determining the size of set:
+setName.size
+
+To check if the elements is inside the set:
+setName.has("element");
+
+To add new elements:
+setName.add("Carbona");
+
+To delete elements:
+setName.delete("Carbonara")
+
+Retrieving elememts:
+"can't retrieve"
+
+Looping with sets:
+for (const "variable" of ordersSet) console.log(order);
+
+The main use case of sets is to remove duplicat elements.
+
+Removing duplications in array / Converting array to set:
+const var1=[elem1, elem2, elem3];
+const var2=new Set(var1)
+
+Converting Sets to Array:
+const var1=[elem1, elem2, elem3];
+const var2=new Set(var1)
+const var3=[...var2];
+
+---------------------------------------------------------------------
+
+MAPS: FUNDAMENTALS
+
+MAP
+-data structure that can be used to map values to keys.
+-can have any type
+-can be huge
+-in objects always string
+-array, objects, other maps
+-can be chained
+
+In creating Map:
+const var = new Map();
+var.set("keyname", "value")
+
+var
+   .set("keyname","value")
+
+Getting the element from a map/reading the map:
+var.get("keyname")
+
+Checking if the maps contains that key:
+var.has("keyname")
+
+Delete elements from the map:
+var.delete("keyname")
+
+Determining the size:
+var.size
+
+Clear the elements:
+var.clear("keyname")
+
+
+Realtime date and time:
+let today = new Date();
+console.log( `Time:${ today.getHours() + ":" + 
+today.getMinutes() + ":" + today.getSeconds()} `)
+console.log(`Date: ${today.getFullYear() + "-" + 
+(today.getMonth() + 1) + "-" + today.getDate()}`
+
+------------------------------------------------------------------------------------------
+
+MAPS ITERATION
+
+Map another method
+const var=newMap =new Map([
+key, val], [key, val], [key, val],....,
+])
+
+Converts object to map:
+Object.entries("objectName");
+"objectNewName"=newMap(Object.entries("objectName");)
+
+Looping maps:
+for(const [variables] of "mapName:){
+
+}
+
+Converting Map to Array:
+[...mapName]
+
+Entries:
+mapName.entries();
+
+Keys:
+mapName.keys();
+
+Values:
+mapName.values();
+
+---------------------------------------------------------------------
+
+DEALING AND WORKING WITH DATA
+
+Sources of data:
+(1) From program itself: Data written directly in source code
+(2) From IU: Data input from the user of data written in DOM
+(3) From external sources: Data fetched from example web API
+
+Data Structures: 
+(1) Array 
+    -Simply list of values
+    -Used when you need ordered values
+    -Manipulate data
+(2) Set
+    -Simply list of values
+    -use when unique values needed
+    -high perfromance (10x faster)
+    -remove duplicates
+(3) Object
+    -Can be used if key and values are needed.
+    -traditional key value store
+    -easier to write and access values with . and []
+    -use when you need to include functions
+    -use when working with Json (can convert to map)
+(4) Maps
+    -Can be used if key and values are needed.
+    -Better performance
+    -Easy to iterate
+    -easy to compute size 
+    -Use when you simply need to map key to values
+    -Use when you need keys that are not string
+
+Web APIs 
+-usually comes in a special data format called JSON 
+which looks like this example here.
+
+JSON 
+-Is essentially just text so a long string,
+but it can easily be converted to JavaScript objects
+because it uses the same formatting as JavaScript 
+objects and arrays.
+
+On Built-In 
+-weakMap
+-weakSet
+
+Non-built In
+-Stacks
+-Queues
+-Linked Lists
+-Trees
+-Hash Tables
+
+-------------------------------------------------------------------
+
+< 1000000000 ? t : -1;
+
+ for(let c = 0; i + 2 < A.length && A[i+1] - A[i] === A[i+2] - A[i+1];i++)
+        {
+         c++;
+         t+=c;
+        }
+
+1
+function solution(A) {
+  let N = A.length;
+  let result = 0;
+  let i=0;
+  let j=0;
+  for (i = 0; i < N; i++)
+    for (j = 0; j < N; j++)
+      if (A[i] === A[j]) result = Math.max(result, Math.abs(i - j));
+  return result;
+}
+
+2
+function solution(A, B) {
+let A_String = A.toString();
+let B_String = B.toString();
+let result=B_String.indexOf(A_String);
+return result;
+}
+ 
+
+const solution = (S, A) => {
+  var final_mes = S[0];
+  var position = A[0];
+  var size = S.length;
+  for (let i = 0; i < size; i++) {
+    if (!position) return final_mes;
+    final_mes += S[position];
+    position = A[position];
+  }
+  return final_mes;
+};
+
+-----------------------------------------------------------------------
+
+WORKING WITH STRINGS (PART 1)
+
+Properties
+(1) Getting the letter from a string at a certian position:
+    stringName["number"]
+(2) String Length:
+    stringName.length
+String Methods
+(1) Index of an array or position number of letter:
+    (First position)
+    stringName.indexOf("letter you want")
+(2) Index of an array or position number of letter:
+   (Last position)
+    stringName.lastIndexOf("letter you want")
+(3) Determine the position of the word: (case sensitive)
+    stringName.lastIndexOf("word you want")
+(4) Extracting letter:
+    stringName.slice(start position num,end position num)
+Note: The length of the extracted string is always going to 
+      be end minus beginning.
+(5) Extracting letter the end: 
+    stringName.slice(-1)
+(6) Conversion of string from primitive to objects:  
+    new String("String name")
+
+The string is primitive but can perform method it is beacuse 
+javascript is smart, it converts string into objects which
+is a process of BOXING.
+
+---------------------------------------------------------------------
+
+WORKING WITH STRINGS (PART 2)
+
+String Methods:
+(1) Changing the string to lower case:
+    stringName.toLowercase
+(2) Changing the string to upper case:
+    stringName.toUppercase
+(3) Removing spaces from beginning and end:
+    stringName.trim();
+(4) Replacing a string:
+    stringName.replace("want to replaced", "replacement")
+Note chaining: stringName.replace().replace();
+(5) Replace certain words can use:
+    stringName.replace(/"want to replaced"/g, "replacement")
+Note: g stands for global
+(6) Determine if certain word is included to another word:
+    stringName.includes("the word")
+(7) Determine if the word starts with certain word of letter:
+    stringName.startsWith("the word")
+
+---------------------------------------------------------------------
+
+WORKING WITH STRINGS (PART 3)
+
+String Methods:
+(1) Splitting string (strongest method):
+    stringName.split("where string be splitted");
+(2) Joing strings
+    array.join(" ");
+(3) Padding a string / adding characters 
+    @ start:
+    stringName.padStart("length", "char want to add");
+    @ end:
+    stringName.padStart("length", "char want to end");
+(4) To repeat the same strings multiple times
+ 
+Putting text area:
+document.body.append(document.createElement('textarea'));
+
+Creating button:
+document.body.append(document.createElement('button'));
+ocument.querySelector('button').addEventListener('click', function () {
+  const text = document.querySelector('textarea').value;
+});
+
+-------------------------------------------------------------------------
+
+DEFAULT PARAMETERS
+
+Putting default values in a function
+const "function name" = function (var1=1, var2=1)
+var1="1";
+var1="1"
+
+------------------------------------------------------------------------
+
+HOW PASSING ARGUMENTS WORKS: VALUE VS REFERENCE
+
+Primitive (Value)
+-Changes inside the function dooes not reflect outside the
+function
+-passing a primitive type to a function is really just the 
+same as creating a copy like this, outside of the function.
+-callstack
+
+Object (Reference)
+-Changes inside the function reflects outside the function
+-it is really just like copying an object like this.
+And so whatever we change in a copy will also happen in the 
+original.
+-memory heap
+
+Note:  JavaScript does not have passing by reference, only 
+passing by value, even though it looks like it's passing 
+by reference.
+Note: JavaScript does not have pass by reference.
+
+------------------------------------------------------------------------
+
+FIRST CLASS AND HIGHER ORDER FUNCTIONS
+
+Fundamental Property of the Javascript Language
+(1) First Class Function
+-which is the fact that it has first class functions.
+-this enables us to write higher order functions.
+-means that functions are so-called first citizens.
+-functions are just another type of objects
+-object and functions are values
+-function can be stored in variables and object
+-store functions in a variables or properties:
+const add = (a+b) => a+b;
+-is just a feature that a programming language either has 
+or does not have.
+-All it means is that all functions are values.
+
+const counter = {
+value: 23;
+inc: function () {this.value++}; 
+
+(2) Higher order Function
+-a function recieves another function as an argument that
+returns a new function or both
+-only possible because of first class function
+-add event listener will call the greet callback later
+as soon as the click event happens.
+-which are possible because the language supports first 
+class functions.
+
+-----------------------------------------------------------------
+
+FUNCTIONS ACCEPTING CALLBACK FUNCTIONS
+
+Callback function 
+-is a function that is passed as an argument to another 
+function, to be “called back” at a later time.
+-function that accepts other functions as arguments 
+is called a higher-order function, which contains the 
+logic for when the callback function gets executed.
+
+Abstraction
+-this allows us to think about problems at a higher more 
+abstract level.
+-is that we hide the detail of some code implementation 
+because we don't really care about all that detail.
+
+---------------------------------------------------------------------------------------
+
+Function returning function
+
+function "function1"(var1){
+return function(var2}{
+}
+}
+const var3 = function1("Hey")
+var3(" yuu");
+
+function1(var1)(var2);
+
+.......................................................................
+             C         O         D            E
+const greet = function (greeting) {
+  return function (name) {
+    console.log(`${greeting} ${name}`);
+  };
+};
+const greeter = greet('Good Day!');
+greeter('Jeoneth');
+.......................................................................
+
+Closure
+-are a very complex and difficult to understand mechanism 
+that's part of JavaScript.
+
+Using arrow function:
+const functionName = var1 => var2 => " ";
+
+--------------------------------------------------------------------
+
+THE CALL AND APPLY METHODS
+
+Function inside an object
+
+Call method 
+-will get the function inside an object to used by
+the other object
+-this allows us to manually and explicitly set the this 
+keyword of any function that we want to call.
+function.call(object, var1, var2)
+function.call(object, ...varArray)
+
+Apply Method
+function.apply(object, var)
+
+
+----------------------------------------------------------------------
+
+THE BIND METHOD
+
+Bind Method
+-bind also allows us to manually set this keywords
+for any function call
+-does not immediately call the function
+-it returns a new function where this keyword is bound
+const var=object.bind(function)
+-return new function
+var(var1, var2)
+
+Event Listener
+-is the higher order function which receives a callback 
+function
+
+
+Partial Applications
+-means that a part of the arguments of the original 
+function are already applied, so which means, already set
+-can preset parameters
+
+---------------------------------------------------------------------
+
+IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE)
+
+Immediate invoked function expression
+-function that executes once and never run again
+-is to create a new scope for data privacy
+(function () {Statement};) ();
+(() => Statement)();
+
+-----------------------------------------------------------------
+
+CLOSURES
+
+Closure
+-gives you access to an outer function’s scope 
+from an inner function.
+-is then basically this variable environment attached to 
+the function, exactly as it was at the time and place
+that the function was created
+-This means that even though the execution context
+has actually been destroyed, the variable environment 
+somehow keeps living somewhere in the engine.
+-a function does not lose connection to variables
+that existed at the function's birthplace.
+-is the closed over variable environment of the execution 
+context in which a function was created even after that 
+execution context is gone, or in other words, even after 
+the function to which the execution context belongs has 
+returned
+-gives a function access to all the variables of its 
+parent function
+-So the function in which it is defined even after that 
+parent function has returned.
+-So the function keeps a reference to its outer scope
+even after that outer scope is gone, which basically 
+preserves the scope chain throughout time.
+-makes sure that a function does never lose connection
+to the variables that existed at the function's birthplace
+-It remembers the variables, even after the birthplace is 
+gone
+-It's like a person who doesn't lose connection
+to their hometown
+
+To see internal properties / bagpack:
+console.dir
+
+-------------------------------------------------------------------
+
+MORE CLOSURE EXAMPLES
+ 
+setting call back:
+setTimeout (function{})
+
+-----------------------------------------------------------------------
+
+SIMPLE ARRAY METHODS
+
+Array 
+-arrays are also objects
+-are objects, and that they get access to special built 
+in methods that we can essentially see as tools for arrays
+
+Array Methods
+-are simply functions that are attached to all 
+arrays that we create in JavaScript
+
+Array Methods:
+(1) Slice Methods
+-can extract part of any array, but without changing 
+the original array
+-chain multiple methods together
+arrayName.slice(startingPosition)
+arrayName.slice(startingPositionInc, endingPositionNotInc)
+
+Shallow copy
+arrayName.slice()
+[...arrayName]
+
+(2) Splice
+-works like slice but changes the original
+-deleted the original array change it into what is splice
+-change the original array
+-can be use in deleting permanently an element in an array
+-can delete one or more elements
+-mutate the original array
+-arrayName.splice(positionOftheLElement);
+
+(3) Reverse
+-reverse the order of the elements in an array
+-mutate the original array
+-arrayName.reverse();
+
+(4) Concat
+-does not change the existing arrays, but returns a new 
+array, containing the values of the joined arrays
+-combining two arrays
+-const var = arrayName1.concat(arrayName2);
+-[...arrayName1, ...arrayName2]
+
+(5) Join
+-joining letters separated by a certain character
+-converts array to string
+-arrayName.join("-")
+
+----------------------------------------------------------------
+
+LOOPING ARRAYS FOREACH METHOD
+
+(1) For of Method
+-get the elements one by one to perform operation
+-for(cont var1 of arrayName){ };
+
+Absolute value
+-is to loop over the array, and in each iteration it will 
+execute this callback function here.
+
+(2) For each method
+-get the elements one by one to perform operation
+-easier way the for of method
+-calls this callback function in each iteration it 
+will pass in the current element of the array as an 
+argument, and we can specify that here and let's call that
+again movement
+-the call back is the iteration, it will receive the 
+current element of the array as an argument
+-arrayName.forEach(function(value, index, array){ 
+})
+
+Difference / When to use certain method:
+ForEach Loop
+-cannot break the loop
+-continue and break statement cannot work 
+-will loop the entire array
+
+ForOf Loop
+-can be used when you want to break a loop
+
+------------------------------------------------------------------
+
+FOREACH WITH MAP AND SETS
+
+(1) Map 
+-foreach 
+-mapName.forEach(function(value, key, map){
+})
+
+(2) Sets
+-no key
+-no index
+-foreach
+-setName.forEach(function(value){ 
+})
+
+-------------------------------------------------------------------
+
+BANKIST APP
+
+Note: Data from API is in a form of objects
+
+
+-------------------------------------------------------------
+
+CREATING DOM ELEMENTS
+
+Adding the HTML into the webpage:
+-container.insertAdjacentHTML("positionNames", html insert)
+
+Position names:
+(1) beforebegin
+(2) afterbegin // element will apear before the the other
+                  element
+(3) beforeend // order is inverted // elements added after 
+                 the previous one or at the end of the 
+                 container
+(4) afterend
+
+Emptying the container / setter:
+container.innerHTML=" ";
+
+HTML 
+-similar to text context
+-returns everything including the HTML
+
+------------------------------------------------------------------
+
+MAP TRANSFORMATIONS: MAP, FILTER, REDUCE
+
+Note: In JavaScript, there are three big and important 
+array methods that we use all the time to perform data 
+transformations.
+
+These are methods that we use to create new arrays based
+on transforming data from other arrays.
+
+Three methods:
+(1) Map
+-is yet another method that we can use to loop over arrays
+-is actually similar to the forEach method that we studied 
+before but with the difference that map creates a brand new
+array based on the original array
+-returns a new array containing the results of applying an
+operation on all original array elements
+
+(2) Filter
+-is used to filter for elements in the original array 
+which satisfy a certain condition
+-returns a new array containing the array elements that 
+passed the specific test condition
+
+
+(3) Reduce Method
+-snowball effect
+-is also the reduce method which we use to boil down all 
+the elements of the original array into one single value
+-no new array
+-reduced value
+------------------------------------------------------------------
+
+THE MAP METHOD
+
+syntax:
+arrayName.map(function(var){ })
+
+Note: Not mutated. Need to store into a new variable.
+
+-------------------------------------------------------------------
+
+COMPUTING USERNAMES
+
+Split
+-coverts string to array
+
+=>
+-return
+
+-----------------------------------------------------------------------
+
+FILTER METHOD
+
+syntax:
+arrayName.filter(function(value){return "condition"})
+
+
+---------------------------------------------------------------------
+
+THE REDUCE METHOD
+
+Note: Accumular is like snowball.
+
+syntax
+arrayName.reduce(function(accumelator, index, arr){return},
+initial val);
+
+--------------------------------------------------------------------
+
+THE MAGIC OF CHAINING METHODS
+
+Note: Chaining different methods is possible use the arrow 
+function
+
+--------------------------------------------------------------------
+
+THE FIND METHOD
+
+Find method
+-accepts a condition
+-accepts a callback function which will then be called as 
+the method loops over the array
+-is basically just another method that loops over the array
+but then it does something different.
+-is to retrieve an element of the array.
+-return boolean
+-only returns the first one that satisfies the condition
+-only returns the elements itself
+-find exactly one element
+
+syntax:
+arrayName.find(var => var < 0);
+
+------------------------------------------------------------------
+
+FIND INDEX METHOD
+
+Find Index Method
+-close cousin of find method
+-returns the index of the found element and not the element
+itself.
+
+syntax:
+arrayName.findIndex(var => condition)
+                                                             
+----------------------------------------------------------------------
+
+SOME AND EVERY METHOD
+
+(1) Includes
+-use to determine a certain value is include in the array
+-true or false
+-for equality condition
+
+syntax
+arrayName.includes("elementName");
+
+(2) Some
+-like include use to determine a certain value is include in the 
+array
+-true or false
+-for inequality condition
+
+syntax
+arrayName.some(mov => mov > 0);
+
+
+(3) Every Method
+-is pretty similar to the some method
+-is that every only returns true if all of the elements 
+in the array satisfy the condition that we pass in.
+
+----------------------------------------------------------------
+
+FLAT AND FLATMAP METHODS
+
+Nested array
+-array with arrays as elements
+
+(1) Flat Method
+-it is use to make the nested array into a one full array
+
+syntax:
+arrayName.flat("levelNumber")
+
+(2) FLAT MAP 
+-which is used to flatten the input array element into a 
+new array
+-first of all map every element with the help of a mapping 
+function, then flattens the input array element into the 
+new array
+
+syntax:
+arrayName.flatMap()
+
+----------------------------------------------------------------
+
+SORTING ARRAYS
+
+Sorting
+-method sorts the elements of an array
+-can be either alphabetic or numeric, and either ascending 
+(up) or descending (down)
+
+syntax:
+*ascending:
+arrayName.sort()
+
+*ascending:
+arrayName.sort((a,b)=>{if(a>b) return 1; 
+if(b>a) return -1})
+
+arrayName.sort((a-b)=>a-b);
+
+*descending:
+arrayName.sort((a,b)=>{if(a>b) return -1; 
+if(b>a) return 1})
+
+arrayName.sort((a-b)=>b-a);
+
+----------------------------------------------------------------
+
+MORE WAYS OF CREATING AND FILLING ARRAYS
+
+(1) Array Constructing Method
+-is merely to list the numbers in the array, enclosed 
+inside square brackets and divided either by spaces or 
+commas
+
+syntax:
+new Array(numberOfElements)
+
+(2) Fill Method
+-fills the elements of the given array with the specified 
+static values.
+-this method modifies the original array
+-It returns undefined, if no element satisfies the 
+condition
+
+syntax():
+arrayName.fill(value, start, end) 
+
+(3) From method
+-creates a new, shallow-copied instance of Array from an
+array-like or iterable object
+
+
+syntax():
+arrayName.from({length:7},()=>1); 
+
+------------------------------------------------------------
+
+WHICH ARRAY METHOD IS USED
+
+(1) To Mutate original Array
+    Add:
+     .push (end)
+     .unshift (start)
+    Remove:
+     .pop (end)
+     .shift (start)
+     .splice (any)
+    Others"
+     .reverse
+     .sort
+     .fill
+
+(2) New Array
+    Computed from original:
+     .map
+    Filtered using Condition:
+     .filter
+    Portion of original:
+     .slice
+    Adding original to other:
+     .concat
+    Flattening the original:
+     .flat
+     .flatMap
+
+(3) An Array index
+    Based on value:
+     .indexof
+    Based on test condition:
+     .findIndex
+
+(4) An array element
+    Based on test condition:
+     .find
+
+(5) Know if array includes
+    Based on values:
+     .includes
+    Based on test condition:
+     .some
+     .every
+
+(6) New string
+    Based on separator string:
+     .join
+
+(7) To Transform to Value:
+     Based on accumulator
+      .reduce (boil down array to single value of any type;
+               number, string, boolean. or even new array
+                or object)
+
+(8) To Just loop the array
+    Based on call back:
+     .forEach (do not create new array just loops over it)
+   
+-------------------------------------------------------------------
+
+OBJECT ORIENTED PROGRAMMING
+
+Object Oriented programming (OOP)
+-high level overview of this programming paradigm
+-is a programming paradigm that is based on the concept of 
+objects
+-paradigm simply means the style of the code, so the how 
+we write and organize code
+-use objects to model, so to describe aspects of the real 
+world, like a user or a to-do list item, or even more 
+abstract features like an HTML component or some kind of 
+data structure
+-objects can contain data, which we call properties, and 
+also code, which we call methods
+-by using objects we can pack data and corresponding 
+behavior into one block
+-objects are self contained pieces/blocks of code
+-objects are building blocks of applications and interact 
+with one another
+-interactions happen through a pubic interface (API): 
+methods that the code outside of the object can access
+and use to communicate with the object
+-it was developed with the goal of organizing code, to 
+make it more flexible and easier to maintain (avoid
+sphaghetti code)
+
+Class
+-like a blueprint from which can create new objects
+-it is just a plan
+-can be use in creating instances
+
+syntax:
+className{
+}
+
+Instance 
+-is a real object that we can use in our code,
+which was created from a class, and a class itself is not 
+an object.
+
+Four fundamental OOP Principals
+(1) Abstraction
+-ignoring or hiding details that don't matter
+-allows to get an overview perspective of the thing 
+implementing
+-messing with details dont really matter to our 
+implementation
+-Example: smartphone voltage
+
+(2) Encapsulation
+-keeping properties and methods private inside a class
+-they are not accessible from the outside class
+-some methods can be exposed as a public interface (API)
+-it prevenets external code from actually manipulating
+internal properties/state
+-allows to change internal implementation without the 
+risk of breaking external code
+
+(3) Inheritance
+-making all properties and methods of a certain class
+available to chold class
+-forming a hierachical relationship between classess
+-this allows us to reuse common logic and to model real
+world relationships
+
+(4) Polymorphism
+-a child class can overwrite a method it inherited from a
+parent class
+-its more complex that but enough for our purpose
+
+-------------------------------------------------------------
+
+OOP IN JAVASCRIPT
+
+Classical OOP: Classes
+Class
+-objects (instances) are instantiated from a class which
+functions like a blueprint
+-the theoretical class can be used to create actual objects
+which are called instances and which we can then use in 
+our cout. And this process of creating an instance
+is called instantiation.
+-behavior (methods) is copied from class at all instances
+
+          Class 
+            |
+            |  (instantiation)
+            |
+            v
+         Instance
+
+
+OOP IN JS: Prototypes
+-Objects are linked to a protype object
+-prototype object contains methods and properties
+that all the objects that are linked to that prototype
+can access and use this behavior is usually called 
+prototypal inheritance
+-prototypal inheritance means that all objects that are 
+linked to a certain prototype object can use the methods 
+and properties that are defined on that prototype     
+-prototypal inheritance: the prototype contains methods
+(behavior) that are accessible to all objects linked to 
+that prototype
+-behavior / methods is delgated to the linked prototype 
+object
+
+Prototype (contains method)
+            ^
+            |
+            |  (prototypal inheritance delegation)
+            |
+Objects  (can access methods)
+
+Three ways on implementing prototypal inheritance in 
+Javascript:
+
+(1) Constructor functions
+-technique to create objects from a function
+-this is how built in objects like arrays, maps and sets 
+are actually implemented
+
+(2) ES6 Classes
+-modern alternative to constructor function syntax
+-syntactic sugar behind the scenes, ES6 classes work
+exactly like constructor functions
+-ES6 classes do not behave like classes in classical OOP
+
+(3) Object.create()
+-the easiest and most straightforward way of linking an
+object to a prototype object
+
+----------------------------------------------------------------
+
+CONSTRUCTOR FUNCTIONS
+
+Constructor function
+-is completely a normal function
+-only difference between a regular function,
+and a function that we call constructor function,
+is that we call a constructor function
+with the new operator
+-creating a new object from a constructor function
+-never create a methods in a constructor function
+-what's happening:
+
+(1) A new empty object is created
+(2) A function is called, this ={}
+(3) {} is linked to prototype
+(4) function automatically return {}
+
+syntax:
+const functionName = function(var1, 
+var2){
+this.var1=var1;
+this.var2=var2
+};
+
+const objectName = new functionName(val1, val2);
+
+call:
+new functioName("val1", val2);
+
+Note: this keyword will be the empty object
+
+Test for the instance:
+objectName instanceOf functionName / true or false
+
+--------------------------------------------------------------------
+
+PROTOTYPES
+
+Note: Each and every function in JavaScript automatically 
+has a property called prototype
+
+Note: Every object that's created by a certain constructor
+function will get access to all the methods and properties
+that we define on the constructors prototype property
+
+Prototype
+-allows to create a methods
+-allows to create properties
+
+syntax (methods):
+functionName.prototype.functionName=function(){};
+
+Determine the prototype properties:
+var.__proto__
+
+Note: the prototype of the created object is also the
+prototype of the constructor function
+
+Determine if the prototype of a function is also
+the prototype of the object:
+Person.prototype.isPrototypeOf(object)
+
+syntax (properties):
+functionName.prototype.var=val;
+
+Determine the owned properties:
+var.hasOwnProperty("");
+
+--------------------------------------------------------------------
+
+PROPOTYPAL INHERITANCE AND THE PROTOTYPE CHAIN
+
+Construction Function
+-it has a prototype property (.prototype) which is an 
+object and inside the object the method is defined, it has
+a reference back to person which is the constructor 
+property (.constructor)
+
+(1) wew empty Object is created
+    const var = new functioName("val1", val2);
+
+(2) this keyword in the constructor function call is set
+    to the new object
+    this.val1=val1;
+
+(3) the new object is linked (__proto__property) to the 
+    the constructor function's prototype property
+    .__proto__
+
+(4) the new object is returned from the constructor 
+    function call
+
+------------------------------------------------------------------------
+
+PROTOYPAL INHERITANCE ON BUILT IN OBJECTS
+
+Create an array prototype:
+
+Array.prototype.unique=
+
+------------------------------------------------------------
+
+ES6 CLASSES
+
+Class
+-are a type of function only, but instead of using the 
+keyword "function", the keyword "class" is used to 
+declare a class.
+-can create a method that can be a prototype inside the 
+class
+-not hoisted
+-first class citezens 
+-are executed in strict mode
+
+
+syntax:
+class className{
+constructor
+
+method to add
+};
+
+-------------------------------------------------------------------
+
+SETTERS AND GETTERS
+
+Note: Every object in JavaScript can have setter and 
+getter properties. And we call these special properties 
+assessor properties, while the more normal properties 
+are called data properties.
+
+Getters and Setters
+-features
+-are basically functions that get and set a value so 
+just as the name says, but on the outside they still 
+look like regular properties
+-for data validation
+
+Get
+-method returns the value of the name property
+
+syntax:
+get
+
+Set
+-set a property that already exists
+
+syntax:
+set
+
+--------------------------------------------------------------------
+
+STATIC METHODS
+
+Static Method
+-is the build in Array.from method
+-are generally used to create utility functions
+-can contain any number of static methods
+-can be of any name like any other method or function
+-to call a static method from another static method 
+we can use this keyword
+-can declare more than one static method with the same 
+name but if we do so JavaScript always calls the last 
+one
+
+syntax:
+static methodName(){}
+
+--------------------------------------------------------------------
+
+OBJECT CREATE
+
+Object create
+-which works in a pretty different way than constructor 
+functions and classes work
+-still the idea of prototypal inheritance.
+-no prototype properties involved
+-no constructor functions, and no new operator
+-to essentially manually set the prototype of an object,
+to any other object that we want
+-simple object literal
+
+syntax:
+const proto ={
+method
+}
+
+const var = Object.create(proto);
+var.name="Jeoneth"
+
+jeoneth.method();
+
+---------------------------------------------------------------------
+
+INHERITANCE BETWEEN CLASSES:
+
+Note: Using class terminology here to make it easier to
+understand
+
+Constructor function
+-will inherit between classes using constructor functions,
+and this is gonna be a bit of work, but it will allow you 
+to understand exactly how we set up the prototype chain 
+in order to allow inheritance between the prototype 
+properties of two different constructor functions
+
+Note: Instead of repeating the code just call the function
+
+Calling a function to use this keyword:
+function.call(this, var1, var2);
+
+Linking prototypes
+function1.prototype=Object.create(function2.prototype);
+
+-------------------------------------------------------------------
+
+INHERETANCE BETWEEN CLASSES : ES6 CLASSES
+
+Class Syntax 
+-hides a lot of the details that are actually happening 
+behind the scenes, because classes are really just a 
+layer of obstruction over constructor functions
+
+Extend keywords and super function
+-two ingredients need to implement inheritance between 
+ES6 classes
+
+Extend
+to make this student class inherit from the person class
+
+syntax:
+className extends className
+
+Super 
+-calling the previous class
+
+syntax:
+super()
+
+----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
